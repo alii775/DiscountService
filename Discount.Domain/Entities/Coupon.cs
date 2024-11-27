@@ -5,18 +5,18 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Base;
 namespace Discount.Domain.Entities
 {
-    public class Coupon
+    public class Coupon:BaseEntity
     {
-        public long Id { get; set; }
+      
         public long CategoryId { get; set; }
         public DiscountType DiscountType { get; set; }
         public decimal DiscountValue { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public bool IsActive => DateTime.Now >= StartDate && DateTime.Now <= EndDate;
+        public  bool IsActive { get; set; }
       
     }
 }

@@ -2,6 +2,57 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Asp.Versioning.Abstractions/8.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Asp.Versioning.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Asp.Versioning.Http/8.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Abstractions": "8.1.0"
+        },
+        "compile": {
+          "lib/net8.0/Asp.Versioning.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Asp.Versioning.Mvc/8.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Http": "8.1.0"
+        },
+        "compile": {
+          "lib/net8.0/Asp.Versioning.Mvc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Mvc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AutoMapper/13.0.1": {
         "type": "package",
         "dependencies": {
@@ -61,6 +112,15 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BaseGhane/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Base.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Base.dll": {}
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -1634,6 +1694,9 @@
       "Discount.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BaseGhane": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Discount.Domain.dll": {}
         },
@@ -1671,6 +1734,58 @@
     }
   },
   "libraries": {
+    "Asp.Versioning.Abstractions/8.1.0": {
+      "sha512": "mpeNZyMdvrHztJwR1sXIUQ+3iioEU97YMBnFA9WLbsPOYhGwDJnqJMmEd8ny7kcmS9OjTHoEuX/bSXXY3brIFA==",
+      "type": "package",
+      "path": "asp.versioning.abstractions/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.abstractions.8.1.0.nupkg.sha512",
+        "asp.versioning.abstractions.nuspec",
+        "icon.png",
+        "lib/net8.0/Asp.Versioning.Abstractions.dll",
+        "lib/net8.0/Asp.Versioning.Abstractions.xml",
+        "lib/netstandard1.0/Asp.Versioning.Abstractions.dll",
+        "lib/netstandard1.0/Asp.Versioning.Abstractions.xml",
+        "lib/netstandard2.0/Asp.Versioning.Abstractions.dll",
+        "lib/netstandard2.0/Asp.Versioning.Abstractions.xml"
+      ]
+    },
+    "Asp.Versioning.Http/8.1.0": {
+      "sha512": "Xu4xF62Cu9JqYi/CTa2TiK5kyHoa4EluPynj/bPFWDmlTIPzuJQbBI5RgFYVRFHjFVvWMoA77acRaFu7i7Wzqg==",
+      "type": "package",
+      "path": "asp.versioning.http/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.http.8.1.0.nupkg.sha512",
+        "asp.versioning.http.nuspec",
+        "icon.png",
+        "lib/net8.0/Asp.Versioning.Http.dll",
+        "lib/net8.0/Asp.Versioning.Http.xml"
+      ]
+    },
+    "Asp.Versioning.Mvc/8.1.0": {
+      "sha512": "BMAJM2sGsTUw5FQ9upKQt6GFoldWksePgGpYjl56WSRvIuE3UxKZh0gAL+wDTIfLshUZm97VCVxlOGyrcjWz9Q==",
+      "type": "package",
+      "path": "asp.versioning.mvc/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.mvc.8.1.0.nupkg.sha512",
+        "asp.versioning.mvc.nuspec",
+        "icon.png",
+        "lib/net8.0/Asp.Versioning.Mvc.dll",
+        "lib/net8.0/Asp.Versioning.Mvc.xml"
+      ]
+    },
     "AutoMapper/13.0.1": {
       "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
       "type": "package",
@@ -1722,6 +1837,18 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "BaseGhane/1.0.0": {
+      "sha512": "OCslPCpHD5EuTbJfBVk82m+5fxFcAByaoMy5GzoKNnMA5FoowvOdcjCjhcKlzDj5k0FOvP8mumdiY5hMQ7fZbg==",
+      "type": "package",
+      "path": "baseghane/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "baseghane.1.0.0.nupkg.sha512",
+        "baseghane.nuspec",
+        "lib/net8.0/Base.dll"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -4561,6 +4688,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Asp.Versioning.Mvc >= 8.1.0",
       "Discount.IOC >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.11",
       "Swashbuckle.AspNetCore >= 6.6.2"
@@ -4573,11 +4701,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.API\\Discount.API.csproj",
+      "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Discount.API.csproj",
       "projectName": "Discount.API",
-      "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.API\\Discount.API.csproj",
+      "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Discount.API.csproj",
       "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.API\\obj\\",
+      "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4598,8 +4726,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\Discount.IOC.csproj": {
-              "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\Discount.IOC.csproj"
+            "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\Discount.IOC.csproj": {
+              "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\Discount.IOC.csproj"
             }
           }
         }
@@ -4620,6 +4748,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Asp.Versioning.Mvc": {
+            "target": "Package",
+            "version": "[8.1.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

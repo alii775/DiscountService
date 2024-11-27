@@ -1,5 +1,5 @@
-﻿using Discount.Application.Command;
-using Discount.Application.Commands;
+﻿using Discount.Application.Commands;
+using Discount.Application.Handlers.Command;
 using Discount.Application.Query;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -34,15 +34,6 @@ namespace Discount.API.Controllers
             var query = await _mediator.Send(getActive);
             return Ok(query);
            
-        }
-
-        
-        [HttpPost("apply")]
-        public async Task<IActionResult> ApplyCoupon([FromBody] ApplyDiscountCommand command)
-        {
-            var discountedPrice = await _mediator.Send(command);
-
-            return Ok(new { DiscountedPrice = discountedPrice });
         }
 
        

@@ -8,12 +8,46 @@
     ".NETCoreApp,Version=v8.0": {
       "Discount.API/1.0.0": {
         "dependencies": {
+          "Asp.Versioning.Mvc": "8.1.0",
           "Discount.IOC": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.11",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
           "Discount.API.dll": {}
+        }
+      },
+      "Asp.Versioning.Abstractions/8.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Abstractions.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.8851.31619"
+          }
+        }
+      },
+      "Asp.Versioning.Http/8.1.0": {
+        "dependencies": {
+          "Asp.Versioning.Abstractions": "8.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Http.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.8851.31627"
+          }
+        }
+      },
+      "Asp.Versioning.Mvc/8.1.0": {
+        "dependencies": {
+          "Asp.Versioning.Http": "8.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Mvc.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.8851.31627"
+          }
         }
       },
       "AutoMapper/13.0.1": {
@@ -59,6 +93,14 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.11.4.0",
             "fileVersion": "1.1100.424.31005"
+          }
+        }
+      },
+      "BaseGhane/1.0.0": {
+        "runtime": {
+          "lib/net8.0/Base.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -985,6 +1027,9 @@
         }
       },
       "Discount.Domain/1.0.0": {
+        "dependencies": {
+          "BaseGhane": "1.0.0"
+        },
         "runtime": {
           "Discount.Domain.dll": {
             "assemblyVersion": "1.0.0",
@@ -1023,6 +1068,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Asp.Versioning.Abstractions/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mpeNZyMdvrHztJwR1sXIUQ+3iioEU97YMBnFA9WLbsPOYhGwDJnqJMmEd8ny7kcmS9OjTHoEuX/bSXXY3brIFA==",
+      "path": "asp.versioning.abstractions/8.1.0",
+      "hashPath": "asp.versioning.abstractions.8.1.0.nupkg.sha512"
+    },
+    "Asp.Versioning.Http/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xu4xF62Cu9JqYi/CTa2TiK5kyHoa4EluPynj/bPFWDmlTIPzuJQbBI5RgFYVRFHjFVvWMoA77acRaFu7i7Wzqg==",
+      "path": "asp.versioning.http/8.1.0",
+      "hashPath": "asp.versioning.http.8.1.0.nupkg.sha512"
+    },
+    "Asp.Versioning.Mvc/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BMAJM2sGsTUw5FQ9upKQt6GFoldWksePgGpYjl56WSRvIuE3UxKZh0gAL+wDTIfLshUZm97VCVxlOGyrcjWz9Q==",
+      "path": "asp.versioning.mvc/8.1.0",
+      "hashPath": "asp.versioning.mvc.8.1.0.nupkg.sha512"
+    },
     "AutoMapper/13.0.1": {
       "type": "package",
       "serviceable": true,
@@ -1043,6 +1109,13 @@
       "sha512": "sha512-Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
+    },
+    "BaseGhane/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OCslPCpHD5EuTbJfBVk82m+5fxFcAByaoMy5GzoKNnMA5FoowvOdcjCjhcKlzDj5k0FOvP8mumdiY5hMQ7fZbg==",
+      "path": "baseghane/1.0.0",
+      "hashPath": "baseghane.1.0.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

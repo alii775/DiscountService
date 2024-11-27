@@ -1,21 +1,35 @@
 ﻿
-using Discount.Application.Command;
+using AutoMapper;
+using Discount.Application.Commands;
+using Discount.Application.DTOs;
+using Discount.Domain.Entities;
 using Discount.Domain.IRepository.ICommand;
+using Discount.Domain.IRepository.IQuery;
+using Discount.Domain.IRepository.IQuery.Base;
+using Discount.Infra.Persistence.Repository.Query;
 using MediatR;
-
-public class DeleteCouponCommandHandler : IRequestHandler<DeleteDiscountCommand>
+namespace Discount.Application.Handlers.Command
 {
-    private readonly ICommandRepository _commandrepository;
-
-    public DeleteCouponCommandHandler(ICommandRepository commandrepository)
+    public class DeleteCouponCommandHandler : IRequestHandler<DeleteDiscountCommand>
     {
-       _commandrepository = commandrepository;
-    }
+        private readonly IDiscountCommandRepository _commandrepository;
+        private readonly IMapper _mapper;
 
-   
-    public async Task Handle(DeleteDiscountCommand request, CancellationToken cancellationToken)
-    {
-        await _commandrepository.DeleteAsync(request.CouponId);
-        return;
+
+
+
+        public DeleteCouponCommandHandler(IDiscountCommandRepository commandrepository, DiscountQueryRepository queryRepository, IMapper mapper)
+        {
+            _commandrepository = commandrepository;
+            _mapper = mapper;
+        }
+
+
+        public async Task Handle(DeleteDiscountCommand request, CancellationToken cancellationToken)
+        {
+            var coupon = _mapper.Map<Coupon>(request);
+            await _commandrepository.DeleteAsync(coupon);
+            
+        }
     }
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GqWEu4mBPaw=",
+  "dgSpecHash": "vXR4bt/2bwc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a.asghari\\.nuget\\packages\\baseghane\\1.0.0\\baseghane.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -9,9 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Discount.Infra.Persistence.Repository.Query
+namespace Discount.Infra.Persistence.Repository.Query.Base
 {
-    public class QueryRepository : IQueryRepository
+    public class QueryRepository<T> : IQueryRepository<T> where T:class
     {
         private readonly DiscountQueryDbContext _context;
 
@@ -20,24 +20,10 @@ namespace Discount.Infra.Persistence.Repository.Query
             _context = context;
         }
 
-        public async Task<List<Coupon>> GetActiveDiscountAsync()
+        public async Task<List<T>> GetAll()
         {
-
-            var now = DateTime.Now;
-            return await _context.Discounts
-                .Where(c => c.StartDate <= now && c.EndDate >= now)
-                .ToListAsync();
-        }
-
-        public async Task<Coupon> GetByIdAsync(long id)
-        {
-            var res = await _context.Discounts.FirstOrDefaultAsync(d => d.Id == id);
-
+            var res =await _context.Set<T>().ToListAsync();
             return res;
-
         }
-
-
-
     }
 }

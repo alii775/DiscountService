@@ -313,3 +313,7 @@ C:\Users\a.asghari\Desktop\discountservice\Discount.API\obj\Debug\net8.0\refint\
 C:\Users\a.asghari\Desktop\discountservice\Discount.API\obj\Debug\net8.0\Discount.API.pdb
 C:\Users\a.asghari\Desktop\discountservice\Discount.API\obj\Debug\net8.0\Discount.API.genruntimeconfig.cache
 C:\Users\a.asghari\Desktop\discountservice\Discount.API\obj\Debug\net8.0\ref\Discount.API.dll
+C:\Users\a.asghari\Desktop\DiscountService\Discount.API\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\a.asghari\Desktop\DiscountService\Discount.API\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\a.asghari\Desktop\DiscountService\Discount.API\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\a.asghari\Desktop\DiscountService\Discount.API\bin\Debug\net8.0\Base.dll

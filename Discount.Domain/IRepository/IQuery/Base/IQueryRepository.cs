@@ -8,11 +8,9 @@ using System.Threading.Tasks;
 
 namespace Discount.Domain.IRepository.IQuery.Base
 {
-    public interface IQueryRepository
+    public interface IQueryRepository<T> where T : class
     {
-        Task<Coupon> GetByIdAsync(long id);
-
-        Task<List<Coupon>> GetActiveDiscountAsync();
+       Task<List<T>> GetAll();
     }
 }
 

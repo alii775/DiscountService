@@ -22,3 +22,4 @@ C:\Users\a.asghari\Desktop\discountservice\Discount.Domain\obj\Debug\net8.0\Disc
 C:\Users\a.asghari\Desktop\discountservice\Discount.Domain\obj\Debug\net8.0\refint\Discount.Domain.dll
 C:\Users\a.asghari\Desktop\discountservice\Discount.Domain\obj\Debug\net8.0\Discount.Domain.pdb
 C:\Users\a.asghari\Desktop\discountservice\Discount.Domain\obj\Debug\net8.0\ref\Discount.Domain.dll
+C:\Users\a.asghari\Desktop\DiscountService\Discount.Domain\obj\Debug\net8.0\Discount.Domain.csproj.AssemblyReference.cache

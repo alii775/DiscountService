@@ -1,5 +1,6 @@
 ﻿using Discount.Domain.Entities;
 using Discount.Domain.IRepository.ICommand;
+using Discount.Domain.IRepository.ICommand.Base;
 using Discount.Infra.Persistence.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -12,7 +13,7 @@ namespace Discount.Infra.Persistence.Repository.Command.Base
 {
 
 
-    public class CommandRepository : ICommandRepository
+    public class CommandRepository<T> : ICommandRepository<T> where T:class
     {
         protected readonly DiscountCommandDbContext _context;
 
@@ -20,40 +21,36 @@ namespace Discount.Infra.Persistence.Repository.Command.Base
         {
             _context = context;
         }
-        public async Task AddAsync(Coupon coupon)
+
+        public async Task<T> AddAsync(T entity)
         {
 
             try
             {
-                _context.Discounts.Add(coupon);
-                await _context.SaveChangesAsync();
-
+                _context.Set<T>().Add(entity);
+                _context.SaveChanges();
+                return entity;
             }
             catch (Exception ex)
             {
 
                 throw;
             }
-
         }
 
-        public async Task UpdateAsync(Coupon coupon)
+        public async Task DeleteAsync(T entity)
         {
-            _context.Discounts.Remove(coupon);
+            _context.Set<T>().Remove(entity);
             await _context.SaveChangesAsync();
         }
 
-
-
-        public async Task DeleteAsync(long id)
+        public async Task UpdateAsync(T entity)
         {
-            var coupon = await _context.Discounts.FindAsync(id);
-            if (coupon != null)
-            {
-                _context.Discounts.Remove(coupon);
-                await _context.SaveChangesAsync();
-            }
+            _context.Entry(entity).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
         }
+
+      
     }
 
 }

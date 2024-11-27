@@ -1,4 +1,5 @@
 ﻿using Discount.Domain.Entities;
+using Discount.Domain.IRepository.ICommand.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +9,9 @@ using System.Threading.Tasks;
 
 namespace Discount.Domain.IRepository.ICommand
 {
-    public interface ICommandRepository
+    public interface IDiscountCommandRepository:ICommandRepository<Coupon>
     {
-        Task AddAsync(Coupon coupon);
-        Task UpdateAsync(Coupon coupon);
-        Task DeleteAsync(long id);
-    
+       
+
     }
 }

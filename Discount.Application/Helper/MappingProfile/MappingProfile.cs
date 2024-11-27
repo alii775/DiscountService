@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Discount.Application.Command;
+using Discount.Application.Commands;
 using Discount.Application.DTOs;
 using Discount.Application.Query;
 using Discount.Domain.Entities;

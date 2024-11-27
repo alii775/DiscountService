@@ -33,6 +33,9 @@ namespace Discount.Infra.Migrations
                     b.Property<long>("CategoryId")
                         .HasColumnType("bigint");
 
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("DiscountType")
                         .HasColumnType("int");
 
@@ -42,7 +45,13 @@ namespace Discount.Infra.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");

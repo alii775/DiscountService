@@ -7,9 +7,9 @@ using Discount.Domain.Enums;
 using MediatR;
 using System;
 using System.ComponentModel.DataAnnotations;
-namespace Discount.Application.Command
+namespace Discount.Application.Commands
 {
-    public record CreateDiscountCommand : IRequest<long>
+    public record CreateDiscountCommand : IRequest
     {
         public long CategoryId { get; set; }
         [Range(1, 2)]

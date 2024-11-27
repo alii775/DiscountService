@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Discount.Application.Command
+namespace Discount.Application.Commands
 {
 
     public record UpdateDiscountCommand : IRequest

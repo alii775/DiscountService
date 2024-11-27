@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Discount.Application.DTOs;
 using Discount.Application.Query;
+using Discount.Domain.IRepository.IQuery;
 using Discount.Domain.IRepository.IQuery.Base;
 using MediatR;
 using System;
@@ -13,10 +14,10 @@ namespace Discount.Application.Handlers.Query
 {
     public class GetDiscountQueryHandler : IRequestHandler<GetDiscountByIdQuery, CouponDto>
     {
-        private readonly IQueryRepository _queryRepository;
+        private readonly IDiscountQueryRepository _queryRepository;
         private readonly IMapper _mapper;
 
-        public GetDiscountQueryHandler(IQueryRepository queryRepository, IMapper mapper)
+        public GetDiscountQueryHandler(IDiscountQueryRepository queryRepository, IMapper mapper)
         {
             _queryRepository = queryRepository;
             _mapper = mapper;

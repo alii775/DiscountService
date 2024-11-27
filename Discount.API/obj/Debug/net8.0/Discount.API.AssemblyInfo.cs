@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Discount.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+781cb790dea021788b462f0285976fd2893461bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f90385215fc481b067bb37f87ebf6ad34b84ec16")]
 [assembly: System.Reflection.AssemblyProductAttribute("Discount.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Discount.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

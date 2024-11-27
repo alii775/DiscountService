@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "BaseGhane/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Base.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Base.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BaseGhane/1.0.0": {
+      "sha512": "OCslPCpHD5EuTbJfBVk82m+5fxFcAByaoMy5GzoKNnMA5FoowvOdcjCjhcKlzDj5k0FOvP8mumdiY5hMQ7fZbg==",
+      "type": "package",
+      "path": "baseghane/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "baseghane.1.0.0.nupkg.sha512",
+        "baseghane.nuspec",
+        "lib/net8.0/Base.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "BaseGhane >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\a.asghari\\.nuget\\packages\\": {},
@@ -14,11 +39,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj",
       "projectName": "Discount.Domain",
-      "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj",
+      "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj",
       "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\obj\\",
+      "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -56,6 +81,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "BaseGhane": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
