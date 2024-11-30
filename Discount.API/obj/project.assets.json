@@ -4705,7 +4705,7 @@
       "projectName": "Discount.API",
       "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Discount.API.csproj",
       "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\obj\\",
+      "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

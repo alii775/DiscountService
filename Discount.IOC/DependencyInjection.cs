@@ -1,6 +1,7 @@
-﻿using Discount.Application.Handlers.Command;
+﻿using Discount.Application.Commands;
+using Discount.Application.Handlers.Command;
 using Discount.Application.Handlers.Query;
-using Discount.Application.Helper.MappingProfile;
+using Discount.Application.Helper;
 using Discount.Application.Services;
 using Discount.Domain.IRepository.ICommand;
 using Discount.Domain.IRepository.IQuery;
@@ -17,21 +18,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Discount.IOC
 {
     public static class DependencyInjection
     {
-        public static void RegisterService(this IServiceCollection services) 
+        public static void RegisterService(this IServiceCollection services)
         {
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetDiscountQueryHandler).Assembly));
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CommandDiscountHandler).Assembly));
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddAutoMapper(typeof(MappingProfile));
             services.AddScoped(typeof(IDiscountCommandRepository), typeof(DiscountCommandRepository));
             services.AddScoped(typeof(IDiscountQueryRepository), typeof(DiscountQueryRepository));
             services.AddScoped<DiscountCommandDbContext>();
             services.AddTransient<DiscountQueryDbContext>();
-            services.AddScoped<CalculateService>();
-
+          
+          
         }
     }
 }

@@ -11,7 +11,7 @@
         "projectName": "Discount.API",
         "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Discount.API.csproj",
         "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\obj\\",
+        "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,7 +99,7 @@
         "projectName": "Discount.Application",
         "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Discount.Application.csproj",
         "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\obj\\",
+        "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -249,7 +249,7 @@
         "projectName": "Discount.Infra",
         "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj",
         "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\obj\\",
+        "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -330,7 +330,7 @@
         "projectName": "Discount.IOC",
         "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\Discount.IOC.csproj",
         "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\obj\\",
+        "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

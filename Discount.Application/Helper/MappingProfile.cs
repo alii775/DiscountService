@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Discount.Application.Helper.MappingProfile
+namespace Discount.Application.Helper
 {
     public class MappingProfile : Profile
     {
@@ -21,11 +21,12 @@ namespace Discount.Application.Helper.MappingProfile
                 .ForMember(dest => dest.DiscountType, opt => opt.MapFrom(src => src.DiscountType.ToString()))
                 .ForMember(dest => dest.IsActive, opt => opt.MapFrom(src => src.IsActive))
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id.ToString()));
-       
-                
-            
-            CreateMap<CreateDiscountCommand, Coupon>();
-          
+
+
+
+            //CreateMap<CreateDiscountCommand, Coupon>();
+            //CreateMap<DeleteDiscountCommand, Coupon>();
+            CreateMap<Domain.Entities.Coupon, DiscountCommand>().ReverseMap();
         }
     }
 

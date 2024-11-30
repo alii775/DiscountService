@@ -27,7 +27,13 @@ namespace Discount.Infra.Persistence.Data
         {
             modelBuilder.Entity<Coupon>()
                 .Property(c => c.DiscountType)
+
                 .HasConversion<int>();
+            modelBuilder.Entity<Coupon>()
+                 .Property(c => c.Id)
+
+                 .ValueGeneratedOnAdd();
+
         }
     }
 }

@@ -27,7 +27,7 @@ namespace Discount.Application.Handlers.Query
 
         public async Task<List<CouponDto>> Handle(GetActiveDiscountsQuery request, CancellationToken cancellationToken)
         {
-            var activeCoupons = await _queryRepository.GetActiveDiscountAsync();
+            var activeCoupons = await _queryRepository.GetActiveDiscountAsync(DateTime.Now);
 
            
             return _mapper.Map<List<CouponDto>>(activeCoupons);

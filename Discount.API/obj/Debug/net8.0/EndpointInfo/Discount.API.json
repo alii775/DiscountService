@@ -48,7 +48,7 @@
         }
       }
     },
-    "/api/Discount/apply": {
+    "/api/Discount/Add-Discount": {
       "post": {
         "tags": [
           "Discount"
@@ -57,17 +57,65 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ApplyDiscountCommand"
+                "$ref": "#/components/schemas/DiscountCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/ApplyDiscountCommand"
+                "$ref": "#/components/schemas/DiscountCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/ApplyDiscountCommand"
+                "$ref": "#/components/schemas/DiscountCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Discount/Update-Discount": {
+      "put": {
+        "tags": [
+          "Discount"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DiscountCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DiscountCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DiscountCommand"
               }
             }
           }
@@ -79,52 +127,30 @@
         }
       }
     },
-    "/api/Discount/Create": {
-      "post": {
-        "tags": [
-          "Discount"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateDiscountCommand"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateDiscountCommand"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateDiscountCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Discount/Delete": {
+    "/api/Discount/Delete-Discount": {
       "delete": {
         "tags": [
           "Discount"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int64"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DiscountCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DiscountCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DiscountCommand"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -135,21 +161,7 @@
   },
   "components": {
     "schemas": {
-      "ApplyDiscountCommand": {
-        "type": "object",
-        "properties": {
-          "couponId": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "originalPrice": {
-            "type": "number",
-            "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreateDiscountCommand": {
+      "DiscountCommand": {
         "type": "object",
         "properties": {
           "categoryId": {
@@ -160,8 +172,6 @@
             "$ref": "#/components/schemas/DiscountType"
           },
           "discountValue": {
-            "maximum": 100,
-            "minimum": 0,
             "type": "number",
             "format": "double"
           },

@@ -12,6 +12,6 @@ namespace Discount.Domain.IRepository.IQuery
     {
         Task<Coupon> GetByIdAsync(long id);
 
-        Task<List<Coupon>> GetActiveDiscountAsync();
+        Task<List<Coupon>> GetActiveDiscountAsync(DateTime dateTime);
     }
 }

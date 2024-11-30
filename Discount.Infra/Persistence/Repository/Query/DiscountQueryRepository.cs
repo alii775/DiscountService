@@ -20,16 +20,17 @@ namespace Discount.Infra.Persistence.Repository.Query
             _context = context;
         }
 
-        public async Task<List<Coupon>> GetActiveDiscountAsync()
+        public async Task<List<Coupon>> GetActiveDiscountAsync(DateTime currentDate)
         {
-            var res= await _context.Discounts.Include(u => u.IsActive==true).ToListAsync();
+
+            var res = await _context.Discounts
+              .Where(d => d.StartDate <= currentDate && d.EndDate >= currentDate)
+              .ToListAsync();
             return res;
+
+
         }
 
-        public Task<List<Coupon>> GetActiveDiscountAsync(long id)
-        {
-            throw new NotImplementedException();
-        }
 
         public async Task<Coupon> GetByIdAsync(long  id)
         {
