@@ -17,42 +17,32 @@
   },
   {
     "ContainingType": "Discount.API.Controllers.DiscountController",
-    "Method": "InsertData",
-    "RelativePath": "api/Discount/Add-Discount",
+    "Method": "CreateCoupon",
+    "RelativePath": "api/Discount/Create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "discountCommand",
-        "Type": "Discount.Application.Commands.DiscountCommand",
+        "Name": "command",
+        "Type": "Discount.Application.Commands.CreateDiscountCommand",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Boolean",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Discount.API.Controllers.DiscountController",
-    "Method": "DeleteData",
-    "RelativePath": "api/Discount/Delete-Discount",
+    "Method": "DeleteCoupon",
+    "RelativePath": "api/Discount/Delete",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "discountCommand",
-        "Type": "Discount.Application.Commands.DiscountCommand",
-        "IsRequired": true
+        "Name": "couponId",
+        "Type": "System.Int64",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -75,15 +65,31 @@
   },
   {
     "ContainingType": "Discount.API.Controllers.DiscountController",
-    "Method": "UpdateData",
-    "RelativePath": "api/Discount/Update-Discount",
+    "Method": "ScheduleDiscountJob",
+    "RelativePath": "api/Discount/HangFire",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Discount.Application.Commands.ScheduleDiscountJobCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Discount.API.Controllers.DiscountController",
+    "Method": "UpdateCoupon",
+    "RelativePath": "api/Discount/Update",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "discountCommand",
-        "Type": "Discount.Application.Commands.DiscountCommand",
+        "Name": "command",
+        "Type": "Discount.Application.Commands.UpdateDiscountCommand",
         "IsRequired": true
       }
     ],

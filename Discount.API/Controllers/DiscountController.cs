@@ -38,62 +38,78 @@ namespace Discount.API.Controllers
         }
 
 
-        //[HttpPost("Create")]
-        //public async Task<IActionResult> CreateCoupon([FromBody] CreateDiscountCommand command)
-        //{
-        //      await _mediator.Send(command);
+        [HttpPost("Create")]
+        public async Task<IActionResult> CreateCoupon([FromBody] CreateDiscountCommand command)
+        {
+            await _mediator.Send(command);
 
 
-        //    return Ok(command);
-        //}
+            return Ok(command);
+        }
 
 
-        //[HttpDelete("Delete")]
-        //public async Task<IActionResult> DeleteCoupon(DeleteDiscountCommand command)
-        //{
+        [HttpDelete("Delete")]
+        public async Task<IActionResult> DeleteCoupon([FromQuery]DeleteDiscountCommand command)
+        {
 
-        //     await _mediator.Send(command);
+            await _mediator.Send(command);
 
 
-        //    return Ok();
-        //}
-        #region Add Crud System for discount
+            return Ok();
+        }
+        [HttpPut("Update")]
+        public async Task<IActionResult>UpdateCoupon(UpdateDiscountCommand command) 
+        {
+            await _mediator.Send(command);
+
+
+            return Ok();
+
+
+        }
+        //#region Add Crud System for discount
         /// <summary>
         /// افزودن کتگوری جدید
         /// </summary>
         /// <returns></returns>
 
-        [HttpPost("Add-Discount")]
-        [ProducesResponseType(typeof(bool), 200)]
-        public async Task<IActionResult> InsertData([FromBody] DiscountCommand discountCommand)
-        {
-            discountCommand.TypeRequst = (int)RequstType.Add;
-            var res = await _mediator.Send(discountCommand);
-            return Ok(res);
-        }
+        //[HttpPost("Add-Discount")]
+        //[ProducesResponseType(typeof(bool), 200)]
+        //public async Task<IActionResult> InsertData([FromBody] DiscountCommand discountCommand)
+        //{
+        //    discountCommand.TypeRequst = (int)RequstType.Add;
+        //    var res = await _mediator.Send(discountCommand);
+        //    return Ok(res);
+        //}
         /// <summary>
         /// بروز رسانی کتگوری
         /// </summary>
         /// <returns></returns>
-        [HttpPut("Update-Discount")]
-        public async Task<IActionResult> UpdateData([FromBody] DiscountCommand discountCommand)
-        {
-            discountCommand.TypeRequst = (int)RequstType.Update;
-            var res = await _mediator.Send(discountCommand);
-            return Ok(res);
+        //[HttpPut("Update-Discount")]
+        //public async Task<IActionResult> UpdateData([FromBody] DiscountCommand discountCommand)
+        //{
+        //    discountCommand.TypeRequst = (int)RequstType.Update;
+        //    var res = await _mediator.Send(discountCommand);
+        //    return Ok(res);
 
-        }
+        //}
         /// <summary>
         /// حذف کتگوری 
         /// </summary>
         /// <returns></returns>
-        [HttpDelete("Delete-Discount")]
-        public async Task<IActionResult> DeleteData([FromBody] DiscountCommand discountCommand)
+        //[HttpDelete("Delete-Discount")]
+        //public async Task<IActionResult> DeleteData([FromBody] DiscountCommand discountCommand)
+        //{
+        //    discountCommand.TypeRequst = (int)RequstType.Delete;
+        //    var res = await _mediator.Send(discountCommand);
+        //    return Ok(res);
+        //    #endregion
+        //}
+        [HttpPost("HangFire")]
+        public async Task<IActionResult> ScheduleDiscountJob([FromBody] ScheduleDiscountJobCommand command)
         {
-            discountCommand.TypeRequst = (int)RequstType.Delete;
-            var res = await _mediator.Send(discountCommand);
-            return Ok(res);
-            #endregion
+            await _mediator.Send(command);
+            return Ok("Recurring job scheduled successfully.");
         }
     }
 }

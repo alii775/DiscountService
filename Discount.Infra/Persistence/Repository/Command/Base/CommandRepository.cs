@@ -38,12 +38,24 @@ namespace Discount.Infra.Persistence.Repository.Command.Base
             }
         }
 
+
         public async Task DeleteAsync(T entity)
         {
-           _context.Set<T>().Remove(entity);
-            _context.SaveChanges();
-     
+            try
+            {
+                _context.Entry(entity).State= EntityState.Detached;
+                await _context.SaveChangesAsync();
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+           
         }
+
+
 
         public async Task UpdateAsync(T entity)
         {

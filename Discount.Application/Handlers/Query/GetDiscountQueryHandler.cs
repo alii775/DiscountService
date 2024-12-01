@@ -26,11 +26,17 @@ namespace Discount.Application.Handlers.Query
         public async Task<CouponDto> Handle(GetDiscountByIdQuery request, CancellationToken cancellationToken)
         {
             var coupon = await _queryRepository.GetByIdAsync(request.CouponId);
-            if (coupon == null)
-                throw new Exception("Coupon not found.");
+            try
+            {
+               return _mapper.Map<CouponDto>(coupon); ;
+            }
+            catch (Exception)
+            {
 
-            
-            return  _mapper.Map<CouponDto>(coupon);
+                throw new Exception ("Coupon not found.");
+            }
+
+           
         }
     }
 }

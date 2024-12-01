@@ -23,10 +23,10 @@ namespace Discount.Application.Helper
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id.ToString()));
 
 
-
-            //CreateMap<CreateDiscountCommand, Coupon>();
-            //CreateMap<DeleteDiscountCommand, Coupon>();
-            CreateMap<Domain.Entities.Coupon, DiscountCommand>().ReverseMap();
+            CreateMap<UpdateDiscountCommand, Coupon>();
+            CreateMap<CreateDiscountCommand, Coupon>();
+            CreateMap<DeleteDiscountCommand, Coupon>();
+         
         }
     }
 

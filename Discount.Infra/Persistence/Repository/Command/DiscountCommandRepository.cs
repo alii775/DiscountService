@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Discount.Infra.Persistence.Repository.Command
 {
-    public class DiscountCommandRepository : CommandRepository<Coupon>, IDiscountCommandRepository
+    public class DiscountCommandRepository : CommandRepository<Coupon>,IDiscountCommandRepository
     {
         private readonly DiscountCommandDbContext _context;
 
@@ -19,36 +19,25 @@ namespace Discount.Infra.Persistence.Repository.Command
         {
             _context = context;
         }
-        public async Task DeleteAsync(Coupon coupon)
-        {
-            var res= await _context.Discounts.FindAsync(coupon.Id);
-            if (res != null)
-            {
-                _context.Discounts.Remove(res);
-                await _context.SaveChangesAsync();
-
-            }
-            else 
-            {
-                throw new Exception("Id Not Found");
-    
-            }
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
 
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

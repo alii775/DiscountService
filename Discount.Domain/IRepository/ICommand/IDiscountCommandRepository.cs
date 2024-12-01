@@ -9,9 +9,8 @@ using System.Threading.Tasks;
 
 namespace Discount.Domain.IRepository.ICommand
 {
-    public interface IDiscountCommandRepository:ICommandRepository<Coupon>
+    public interface IDiscountCommandRepository : ICommandRepository<Coupon>
     {
        
-
     }
 }
