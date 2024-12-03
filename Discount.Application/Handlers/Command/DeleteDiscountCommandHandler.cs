@@ -28,9 +28,13 @@ namespace Discount.Application.Handlers.Command
 
         public async Task Handle(DeleteDiscountCommand request, CancellationToken cancellationToken)
         {
-            var coupon = _mapper.Map<Coupon>(request);
-            await _commandrepository.DeleteAsync(coupon);
-
+             var res= _mapper.Map<Coupon>(request);
+            if (res.Id==request.CouponId) 
+            {
+                await _commandrepository.DeleteAsync(res);
+            };
+          
         }
+
     }
 }

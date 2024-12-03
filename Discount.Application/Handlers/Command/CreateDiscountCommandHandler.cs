@@ -23,7 +23,9 @@ namespace Discount.Application.Handlers.Command
       
         public async Task Handle(CreateDiscountCommand request, CancellationToken cancellationToken)
         {
+
             var coupon = _mapper.Map<Coupon>(request);
+           
             await _commandRepository.AddAsync(coupon);
 
         }

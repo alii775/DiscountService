@@ -31,8 +31,7 @@ namespace Discount.IOC
         {
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetDiscountQueryHandler).Assembly));
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(DeleteDiscountCommandHandler).Assembly));
-            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());           
             services.AddAutoMapper(typeof(MappingProfile));
             services.AddScoped(typeof(IDiscountCommandRepository), typeof(DiscountCommandRepository));
             services.AddScoped(typeof(IDiscountQueryRepository), typeof(DiscountQueryRepository));

@@ -40,7 +40,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "couponId",
+        "Name": "CouponId",
         "Type": "System.Int64",
         "IsRequired": false
       }

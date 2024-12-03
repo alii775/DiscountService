@@ -25,8 +25,9 @@ namespace Discount.Application.Helper
 
             CreateMap<UpdateDiscountCommand, Coupon>();
             CreateMap<CreateDiscountCommand, Coupon>();
-            CreateMap<DeleteDiscountCommand, Coupon>();
-         
+            CreateMap<DeleteDiscountCommand, Coupon>()
+                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.CouponId));
+
         }
     }
 

@@ -4051,9 +4051,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\Discount.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj",
       "projectName": "Discount.Infra",
-      "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\Discount.Infra.csproj",
+      "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj",
       "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\obj\\",
       "projectStyle": "PackageReference",
@@ -4076,8 +4076,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj": {
-              "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj"
+            "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj": {
+              "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj"
             }
           }
         }

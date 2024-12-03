@@ -4,6 +4,7 @@ using Discount.Application.Helper;
 using Discount.Application.Query;
 using MediatR;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Discount.API.Controllers
@@ -53,7 +54,7 @@ namespace Discount.API.Controllers
         {
 
             await _mediator.Send(command);
-
+          
 
             return Ok();
         }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\persistence\\repository\\command\\base\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\persistence\\repository\\command\\base\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\persistence\\repository\\command\\discountcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\persistence\\repository\\command\\discountcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90D74603-FCEA-4A47-8D7C-696DE36DFB06}|Discount.API\\Discount.API.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.api\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D74603-FCEA-4A47-8D7C-696DE36DFB06}|Discount.API\\Discount.API.csproj|solutionrelative:discount.api\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\handlers\\command\\deletediscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\handlers\\command\\deletediscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.domain\\irepository\\icommand\\base\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|solutionrelative:discount.domain\\irepository\\icommand\\base\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\commands\\daletediscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,44 +23,52 @@
       "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\handlers\\command\\creatediscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\commands\\creatediscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\commands\\creatediscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\persistence\\repository\\command\\discountcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\persistence\\repository\\command\\discountcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\persistence\\repository\\command\\base\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\persistence\\repository\\command\\base\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.domain\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|solutionrelative:discount.domain\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AF5DA61-CE0F-4CC9-8170-861C33492600}|Discount.IOC\\Discount.IOC.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AF5DA61-CE0F-4CC9-8170-861C33492600}|Discount.IOC\\Discount.IOC.csproj|solutionrelative:discount.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AF5DA61-CE0F-4CC9-8170-861C33492600}|Discount.IOC\\Discount.IOC.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.ioc\\discount.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8AF5DA61-CE0F-4CC9-8170-861C33492600}|Discount.IOC\\Discount.IOC.csproj|solutionrelative:discount.ioc\\discount.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\helper\\requsttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\helper\\requsttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\handlers\\command\\commanddiscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\handlers\\command\\commanddiscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90D74603-FCEA-4A47-8D7C-696DE36DFB06}|Discount.API\\Discount.API.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90D74603-FCEA-4A47-8D7C-696DE36DFB06}|Discount.API\\Discount.API.csproj|solutionrelative:discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\persistence\\data\\discountcommanddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\persistence\\data\\discountcommanddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.domain\\irepository\\icommand\\idiscountcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|solutionrelative:discount.domain\\irepository\\icommand\\idiscountcommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.domain\\irepository\\icommand\\base\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|solutionrelative:discount.domain\\irepository\\icommand\\base\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\commands\\updatediscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\commands\\updatediscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90D74603-FCEA-4A47-8D7C-696DE36DFB06}|Discount.API\\Discount.API.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.api\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90D74603-FCEA-4A47-8D7C-696DE36DFB06}|Discount.API\\Discount.API.csproj|solutionrelative:discount.api\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AF5DA61-CE0F-4CC9-8170-861C33492600}|Discount.IOC\\Discount.IOC.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF5DA61-CE0F-4CC9-8170-861C33492600}|Discount.IOC\\Discount.IOC.csproj|solutionrelative:discount.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\dtos\\coupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\dtos\\coupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\discount.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\discount.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\commands\\schedulediscountjobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\commands\\schedulediscountjobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\handlers\\schedulediscountjobhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,108 +79,24 @@
       "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\persistence\\hangfire\\databasechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\dtos\\coupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\dtos\\coupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AF5DA61-CE0F-4CC9-8170-861C33492600}|Discount.IOC\\Discount.IOC.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.ioc\\discount.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8AF5DA61-CE0F-4CC9-8170-861C33492600}|Discount.IOC\\Discount.IOC.csproj|solutionrelative:discount.ioc\\discount.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.domain\\irepository\\iquery\\base\\iqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|solutionrelative:discount.domain\\irepository\\iquery\\base\\iqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.domain\\irepository\\iquery\\idiscountqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|solutionrelative:discount.domain\\irepository\\iquery\\idiscountqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\services\\percentagerange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\services\\percentagerange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\commands\\schedulediscountjobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\commands\\schedulediscountjobcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90D74603-FCEA-4A47-8D7C-696DE36DFB06}|Discount.API\\Discount.API.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90D74603-FCEA-4A47-8D7C-696DE36DFB06}|Discount.API\\Discount.API.csproj|solutionrelative:discount.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\handlers\\command\\updatediscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\handlers\\command\\updatediscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\commands\\updatediscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\commands\\updatediscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\commands\\creatediscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\commands\\creatediscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\handlers\\command\\commanddiscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\handlers\\command\\commanddiscountcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\commands\\discountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\commands\\discountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\discount.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\discount.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\persistence\\data\\discountcommanddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\persistence\\data\\discountcommanddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\handlers\\query\\getactivediscountsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\handlers\\query\\getactivediscountsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\persistence\\data\\discountquerydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\persistence\\data\\discountquerydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\handlers\\query\\getdiscountqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\handlers\\query\\getdiscountqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.domain\\discount.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|solutionrelative:discount.domain\\discount.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\queries\\getactivediscountsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\queries\\getactivediscountsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.application\\queries\\getdiscountbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FF670E-CD64-4C96-AABC-FD14C8681596}|Discount.Application\\Discount.Application.csproj|solutionrelative:discount.application\\queries\\getdiscountbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.domain\\enums\\discounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF33CA4-610E-4183-9CC5-46B36CD2152C}|Discount.Domain\\Discount.Domain.csproj|solutionrelative:discount.domain\\enums\\discounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90D74603-FCEA-4A47-8D7C-696DE36DFB06}|Discount.API\\Discount.API.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{90D74603-FCEA-4A47-8D7C-696DE36DFB06}|Discount.API\\Discount.API.csproj|solutionrelative:discount.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\persistence\\repository\\query\\discountqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\persistence\\repository\\query\\discountqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\persistence\\repository\\query\\base\\queryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\persistence\\repository\\query\\base\\queryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\migrations\\discountcommanddbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\migrations\\discountcommanddbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\migrations\\20241120121427_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\migrations\\20241120121427_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\migrations\\20241123112001_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\migrations\\20241123112001_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\migrations\\20241124091657_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\migrations\\20241124091657_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|c:\\users\\a.asghari\\desktop\\discountservice\\discount.infra\\migrations\\20241127103520_init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19915FA-76E9-4BEA-B850-3A1350316E63}|Discount.Infra\\Discount.Infra.csproj|solutionrelative:discount.infra\\migrations\\20241127103520_init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -182,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,15 +114,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "DaleteDiscountCommand.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\DaleteDiscountCommand.cs",
+              "RelativeDocumentMoniker": "Discount.Application\\Commands\\DaleteDiscountCommand.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\DaleteDiscountCommand.cs",
+              "RelativeToolTip": "Discount.Application\\Commands\\DaleteDiscountCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:53:07.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DeleteDiscountCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\DeleteDiscountCommandHandler.cs",
               "RelativeDocumentMoniker": "Discount.Application\\Handlers\\Command\\DeleteDiscountCommandHandler.cs",
               "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\DeleteDiscountCommandHandler.cs",
               "RelativeToolTip": "Discount.Application\\Handlers\\Command\\DeleteDiscountCommandHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T11:45:09.592Z",
+              "WhenOpened": "2024-12-03T11:19:53.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Coupon.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Entities\\Coupon.cs",
+              "RelativeDocumentMoniker": "Discount.Domain\\Entities\\Coupon.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Entities\\Coupon.cs",
+              "RelativeToolTip": "Discount.Domain\\Entities\\Coupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:50:55.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Command\\Base\\CommandRepository.cs",
+              "RelativeDocumentMoniker": "Discount.Infra\\Persistence\\Repository\\Command\\Base\\CommandRepository.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Command\\Base\\CommandRepository.cs",
+              "RelativeToolTip": "Discount.Infra\\Persistence\\Repository\\Command\\Base\\CommandRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:53:11.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateDiscountCommand.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\CreateDiscountCommand.cs",
+              "RelativeDocumentMoniker": "Discount.Application\\Commands\\CreateDiscountCommand.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\CreateDiscountCommand.cs",
+              "RelativeToolTip": "Discount.Application\\Commands\\CreateDiscountCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:43:43.978Z",
               "EditorCaption": ""
             },
             {
@@ -209,144 +185,53 @@
               "RelativeDocumentMoniker": "Discount.Application\\Handlers\\Command\\CreateDiscountCommandHandler.cs",
               "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\CreateDiscountCommandHandler.cs",
               "RelativeToolTip": "Discount.Application\\Handlers\\Command\\CreateDiscountCommandHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T11:33:28.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Discount.IOC.csproj",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\Discount.IOC.csproj",
-              "RelativeDocumentMoniker": "Discount.IOC\\Discount.IOC.csproj",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\Discount.IOC.csproj",
-              "RelativeToolTip": "Discount.IOC\\Discount.IOC.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-01T13:01:13.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Discount.IOC\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\DependencyInjection.cs",
-              "RelativeToolTip": "Discount.IOC\\DependencyInjection.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCAAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:07:50.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Coupon.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Entities\\Coupon.cs",
-              "RelativeDocumentMoniker": "Discount.Domain\\Entities\\Coupon.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Entities\\Coupon.cs",
-              "RelativeToolTip": "Discount.Domain\\Entities\\Coupon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:31:18.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DaleteDiscountCommand.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\DaleteDiscountCommand.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Commands\\DaleteDiscountCommand.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\DaleteDiscountCommand.cs",
-              "RelativeToolTip": "Discount.Application\\Commands\\DaleteDiscountCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T11:44:11.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DiscountCommandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Command\\DiscountCommandRepository.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Persistence\\Repository\\Command\\DiscountCommandRepository.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Command\\DiscountCommandRepository.cs",
-              "RelativeToolTip": "Discount.Infra\\Persistence\\Repository\\Command\\DiscountCommandRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:08:38.622Z",
+              "WhenOpened": "2024-12-02T08:53:43.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CommandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Command\\Base\\CommandRepository.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Persistence\\Repository\\Command\\Base\\CommandRepository.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Command\\Base\\CommandRepository.cs",
-              "RelativeToolTip": "Discount.Infra\\Persistence\\Repository\\Command\\Base\\CommandRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAD4vy0AAABDAAAAAAAAAA==",
+              "Title": "DiscountController.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Controllers\\DiscountController.cs",
+              "RelativeDocumentMoniker": "Discount.API\\Controllers\\DiscountController.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Controllers\\DiscountController.cs",
+              "RelativeToolTip": "Discount.API\\Controllers\\DiscountController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA9wDoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:08:41.252Z",
+              "WhenOpened": "2024-12-03T11:17:18.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RequstType.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Helper\\RequstType.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Helper\\RequstType.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Helper\\RequstType.cs",
-              "RelativeToolTip": "Discount.Application\\Helper\\RequstType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ICommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\IRepository\\ICommand\\Base\\ICommandRepository.cs",
+              "RelativeDocumentMoniker": "Discount.Domain\\IRepository\\ICommand\\Base\\ICommandRepository.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\IRepository\\ICommand\\Base\\ICommandRepository.cs",
+              "RelativeToolTip": "Discount.Domain\\IRepository\\ICommand\\Base\\ICommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:23:28.495Z",
+              "WhenOpened": "2024-12-03T11:27:28.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Helper\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Helper\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Helper\\MappingProfile.cs",
-              "RelativeToolTip": "Discount.Application\\Helper\\MappingProfile.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBkAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "DiscountCommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Command\\DiscountCommandRepository.cs",
+              "RelativeDocumentMoniker": "Discount.Infra\\Persistence\\Repository\\Command\\DiscountCommandRepository.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Command\\DiscountCommandRepository.cs",
+              "RelativeToolTip": "Discount.Infra\\Persistence\\Repository\\Command\\DiscountCommandRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:20:48.841Z",
+              "WhenOpened": "2024-12-02T13:44:00.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "CommandDiscountCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\CommandDiscountCommandHandler.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Handlers\\Command\\CommandDiscountCommandHandler.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\CommandDiscountCommandHandler.cs",
-              "RelativeToolTip": "Discount.Application\\Handlers\\Command\\CommandDiscountCommandHandler.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADYAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:26:37.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Program.cs",
-              "RelativeDocumentMoniker": "Discount.API\\Program.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Program.cs",
-              "RelativeToolTip": "Discount.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T11:29:02.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "IDiscountCommandRepository.cs",
               "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\IRepository\\ICommand\\IDiscountCommandRepository.cs",
               "RelativeDocumentMoniker": "Discount.Domain\\IRepository\\ICommand\\IDiscountCommandRepository.cs",
@@ -354,377 +239,190 @@
               "RelativeToolTip": "Discount.Domain\\IRepository\\ICommand\\IDiscountCommandRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:54:23.776Z",
+              "WhenOpened": "2024-12-02T13:03:41.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ICommandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\IRepository\\ICommand\\Base\\ICommandRepository.cs",
-              "RelativeDocumentMoniker": "Discount.Domain\\IRepository\\ICommand\\Base\\ICommandRepository.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\IRepository\\ICommand\\Base\\ICommandRepository.cs",
-              "RelativeToolTip": "Discount.Domain\\IRepository\\ICommand\\Base\\ICommandRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:54:00.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DiscountController.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Controllers\\DiscountController.cs",
-              "RelativeDocumentMoniker": "Discount.API\\Controllers\\DiscountController.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Controllers\\DiscountController.cs",
-              "RelativeToolTip": "Discount.API\\Controllers\\DiscountController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:11:46.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ScheduleDiscountJobHandler.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\ScheduleDiscountJobHandler.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Handlers\\ScheduleDiscountJobHandler.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\ScheduleDiscountJobHandler.cs",
-              "RelativeToolTip": "Discount.Application\\Handlers\\ScheduleDiscountJobHandler.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T07:28:58.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DatabaseChecker.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\HangFire\\DatabaseChecker.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Persistence\\HangFire\\DatabaseChecker.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\HangFire\\DatabaseChecker.cs",
-              "RelativeToolTip": "Discount.Infra\\Persistence\\HangFire\\DatabaseChecker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T11:28:36.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CouponDTO.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\DTOs\\CouponDTO.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\DTOs\\CouponDTO.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\DTOs\\CouponDTO.cs",
-              "RelativeToolTip": "Discount.Application\\DTOs\\CouponDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:17:05.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IQueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\IRepository\\IQuery\\Base\\IQueryRepository.cs",
-              "RelativeDocumentMoniker": "Discount.Domain\\IRepository\\IQuery\\Base\\IQueryRepository.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\IRepository\\IQuery\\Base\\IQueryRepository.cs",
-              "RelativeToolTip": "Discount.Domain\\IRepository\\IQuery\\Base\\IQueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:14:51.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IDiscountQueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\IRepository\\IQuery\\IDiscountQueryRepository.cs",
-              "RelativeDocumentMoniker": "Discount.Domain\\IRepository\\IQuery\\IDiscountQueryRepository.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\IRepository\\IQuery\\IDiscountQueryRepository.cs",
-              "RelativeToolTip": "Discount.Domain\\IRepository\\IQuery\\IDiscountQueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:03:17.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PercentageRange.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Services\\PercentageRange.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Services\\PercentageRange.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Services\\PercentageRange.cs",
-              "RelativeToolTip": "Discount.Application\\Services\\PercentageRange.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T12:20:33.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ScheduleDiscountJobCommand.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\ScheduleDiscountJobCommand.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Commands\\ScheduleDiscountJobCommand.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\ScheduleDiscountJobCommand.cs",
-              "RelativeToolTip": "Discount.Application\\Commands\\ScheduleDiscountJobCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T07:13:10.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UpdateDiscountCommand.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\UpdateDiscountCommand.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Commands\\UpdateDiscountCommand.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\UpdateDiscountCommand.cs",
-              "RelativeToolTip": "Discount.Application\\Commands\\UpdateDiscountCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T11:30:22.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UpdateDiscountCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\UpdateDiscountCommandHandler.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Handlers\\Command\\UpdateDiscountCommandHandler.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\UpdateDiscountCommandHandler.cs",
-              "RelativeToolTip": "Discount.Application\\Handlers\\Command\\UpdateDiscountCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T11:46:04.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DiscountCommand.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\DiscountCommand.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Commands\\DiscountCommand.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\DiscountCommand.cs",
-              "RelativeToolTip": "Discount.Application\\Commands\\DiscountCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:24:52.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CreateDiscountCommand.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\CreateDiscountCommand.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Commands\\CreateDiscountCommand.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\CreateDiscountCommand.cs",
-              "RelativeToolTip": "Discount.Application\\Commands\\CreateDiscountCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T11:48:09.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Discount.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Application\\Discount.Application.csproj",
-              "RelativeDocumentMoniker": "Discount.Application\\Discount.Application.csproj",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Application\\Discount.Application.csproj",
-              "RelativeToolTip": "Discount.Application\\Discount.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-01T11:29:05.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 9,
               "Title": "DiscountCommandDbContext.cs",
               "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Data\\DiscountCommandDbContext.cs",
               "RelativeDocumentMoniker": "Discount.Infra\\Persistence\\Data\\DiscountCommandDbContext.cs",
               "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Data\\DiscountCommandDbContext.cs",
               "RelativeToolTip": "Discount.Infra\\Persistence\\Data\\DiscountCommandDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:11:18.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "DiscountQueryDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Data\\DiscountQueryDbContext.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Persistence\\Data\\DiscountQueryDbContext.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Data\\DiscountQueryDbContext.cs",
-              "RelativeToolTip": "Discount.Infra\\Persistence\\Data\\DiscountQueryDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:31:05.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "GetDiscountQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Query\\GetDiscountQueryHandler.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Handlers\\Query\\GetDiscountQueryHandler.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Query\\GetDiscountQueryHandler.cs",
-              "RelativeToolTip": "Discount.Application\\Handlers\\Query\\GetDiscountQueryHandler.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:19:06.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "GetActiveDiscountsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Query\\GetActiveDiscountsQueryHandler.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Handlers\\Query\\GetActiveDiscountsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Query\\GetActiveDiscountsQueryHandler.cs",
-              "RelativeToolTip": "Discount.Application\\Handlers\\Query\\GetActiveDiscountsQueryHandler.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswB0AAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T11:03:55.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "DiscountType.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Enums\\DiscountType.cs",
-              "RelativeDocumentMoniker": "Discount.Domain\\Enums\\DiscountType.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Enums\\DiscountType.cs",
-              "RelativeToolTip": "Discount.Domain\\Enums\\DiscountType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T12:11:29.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Discount.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj",
-              "RelativeDocumentMoniker": "Discount.Domain\\Discount.Domain.csproj",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj",
-              "RelativeToolTip": "Discount.Domain\\Discount.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-01T09:56:56.331Z",
+              "WhenOpened": "2024-12-03T11:36:11.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "GetActiveDiscountsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Queries\\GetActiveDiscountsQuery.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Queries\\GetActiveDiscountsQuery.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Queries\\GetActiveDiscountsQuery.cs",
-              "RelativeToolTip": "Discount.Application\\Queries\\GetActiveDiscountsQuery.cs",
+              "DocumentIndex": 11,
+              "Title": "UpdateDiscountCommand.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\UpdateDiscountCommand.cs",
+              "RelativeDocumentMoniker": "Discount.Application\\Commands\\UpdateDiscountCommand.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\UpdateDiscountCommand.cs",
+              "RelativeToolTip": "Discount.Application\\Commands\\UpdateDiscountCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:57:18.554Z"
+              "WhenOpened": "2024-12-03T10:43:55.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "GetDiscountByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Queries\\GetDiscountByIdQuery.cs",
-              "RelativeDocumentMoniker": "Discount.Application\\Queries\\GetDiscountByIdQuery.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Queries\\GetDiscountByIdQuery.cs",
-              "RelativeToolTip": "Discount.Application\\Queries\\GetDiscountByIdQuery.cs",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Discount.IOC\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\DependencyInjection.cs",
+              "RelativeToolTip": "Discount.IOC\\DependencyInjection.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:55:06.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Helper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Discount.Application\\Helper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Helper\\MappingProfile.cs",
+              "RelativeToolTip": "Discount.Application\\Helper\\MappingProfile.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T10:50:30.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CouponDTO.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\DTOs\\CouponDTO.cs",
+              "RelativeDocumentMoniker": "Discount.Application\\DTOs\\CouponDTO.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\DTOs\\CouponDTO.cs",
+              "RelativeToolTip": "Discount.Application\\DTOs\\CouponDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:46:24.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Discount.Infra",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj",
+              "RelativeDocumentMoniker": "Discount.Infra\\Discount.Infra.csproj",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj",
+              "RelativeToolTip": "Discount.Infra\\Discount.Infra.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-03T10:47:35.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ScheduleDiscountJobHandler.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\ScheduleDiscountJobHandler.cs",
+              "RelativeDocumentMoniker": "Discount.Application\\Handlers\\ScheduleDiscountJobHandler.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\ScheduleDiscountJobHandler.cs",
+              "RelativeToolTip": "Discount.Application\\Handlers\\ScheduleDiscountJobHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:54:29.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ScheduleDiscountJobCommand.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\ScheduleDiscountJobCommand.cs",
+              "RelativeDocumentMoniker": "Discount.Application\\Commands\\ScheduleDiscountJobCommand.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\ScheduleDiscountJobCommand.cs",
+              "RelativeToolTip": "Discount.Application\\Commands\\ScheduleDiscountJobCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:57:20.138Z"
+              "WhenOpened": "2024-12-02T13:54:42.978Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Discount.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\appsettings.json",
-              "RelativeToolTip": "Discount.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-30T09:11:33.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "DiscountQueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Query\\DiscountQueryRepository.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Persistence\\Repository\\Query\\DiscountQueryRepository.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Query\\DiscountQueryRepository.cs",
-              "RelativeToolTip": "Discount.Infra\\Persistence\\Repository\\Query\\DiscountQueryRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "DatabaseChecker.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\HangFire\\DatabaseChecker.cs",
+              "RelativeDocumentMoniker": "Discount.Infra\\Persistence\\HangFire\\DatabaseChecker.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\HangFire\\DatabaseChecker.cs",
+              "RelativeToolTip": "Discount.Infra\\Persistence\\HangFire\\DatabaseChecker.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T10:05:56.453Z"
+              "WhenOpened": "2024-12-02T13:54:22.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "QueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Query\\Base\\QueryRepository.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Persistence\\Repository\\Query\\Base\\QueryRepository.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Persistence\\Repository\\Query\\Base\\QueryRepository.cs",
-              "RelativeToolTip": "Discount.Infra\\Persistence\\Repository\\Query\\Base\\QueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T10:15:28.303Z"
+              "DocumentIndex": 19,
+              "Title": "Discount.IOC",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\Discount.IOC.csproj",
+              "RelativeDocumentMoniker": "Discount.IOC\\Discount.IOC.csproj",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\Discount.IOC.csproj",
+              "RelativeToolTip": "Discount.IOC\\Discount.IOC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-03T07:37:19.382Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "DiscountCommandDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Migrations\\DiscountCommandDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Migrations\\DiscountCommandDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Migrations\\DiscountCommandDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Discount.Infra\\Migrations\\DiscountCommandDbContextModelSnapshot.cs",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Program.cs",
+              "RelativeDocumentMoniker": "Discount.API\\Program.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Program.cs",
+              "RelativeToolTip": "Discount.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:25:15.808Z"
+              "WhenOpened": "2024-12-02T13:55:17.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "20241127103520_init3.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Migrations\\20241127103520_init3.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Migrations\\20241127103520_init3.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Migrations\\20241127103520_init3.cs",
-              "RelativeToolTip": "Discount.Infra\\Migrations\\20241127103520_init3.cs",
+              "DocumentIndex": 21,
+              "Title": "UpdateDiscountCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\UpdateDiscountCommandHandler.cs",
+              "RelativeDocumentMoniker": "Discount.Application\\Handlers\\Command\\UpdateDiscountCommandHandler.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\UpdateDiscountCommandHandler.cs",
+              "RelativeToolTip": "Discount.Application\\Handlers\\Command\\UpdateDiscountCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:25:31.239Z"
+              "WhenOpened": "2024-12-02T13:51:42.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "20241124091657_initial.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Migrations\\20241124091657_initial.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Migrations\\20241124091657_initial.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Migrations\\20241124091657_initial.cs",
-              "RelativeToolTip": "Discount.Infra\\Migrations\\20241124091657_initial.cs",
+              "DocumentIndex": 22,
+              "Title": "CommandDiscountCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\CommandDiscountCommandHandler.cs",
+              "RelativeDocumentMoniker": "Discount.Application\\Handlers\\Command\\CommandDiscountCommandHandler.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Handlers\\Command\\CommandDiscountCommandHandler.cs",
+              "RelativeToolTip": "Discount.Application\\Handlers\\Command\\CommandDiscountCommandHandler.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:53:17.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DiscountCommand.cs",
+              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\DiscountCommand.cs",
+              "RelativeDocumentMoniker": "Discount.Application\\Commands\\DiscountCommand.cs",
+              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Commands\\DiscountCommand.cs",
+              "RelativeToolTip": "Discount.Application\\Commands\\DiscountCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:25:37.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "20241123112001_init2.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Migrations\\20241123112001_init2.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Migrations\\20241123112001_init2.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Migrations\\20241123112001_init2.cs",
-              "RelativeToolTip": "Discount.Infra\\Migrations\\20241123112001_init2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:25:38.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "20241120121427_init.cs",
-              "DocumentMoniker": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Migrations\\20241120121427_init.cs",
-              "RelativeDocumentMoniker": "Discount.Infra\\Migrations\\20241120121427_init.cs",
-              "ToolTip": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Migrations\\20241120121427_init.cs",
-              "RelativeToolTip": "Discount.Infra\\Migrations\\20241120121427_init.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T09:25:39.968Z"
+              "WhenOpened": "2024-12-02T08:53:09.487Z",
+              "EditorCaption": ""
             }
           ]
         }

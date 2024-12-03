@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.API\\Discount.API.csproj": {}
+    "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Discount.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.API\\Discount.API.csproj": {
+    "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Discount.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.API\\Discount.API.csproj",
+        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Discount.API.csproj",
         "projectName": "Discount.API",
-        "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.API\\Discount.API.csproj",
+        "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\Discount.API.csproj",
         "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.API\\obj\\",
+        "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\Discount.IOC.csproj": {
-                "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\Discount.IOC.csproj"
+              "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\Discount.IOC.csproj": {
+                "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\Discount.IOC.csproj"
               }
             }
           }
@@ -76,6 +76,10 @@
               "target": "Package",
               "version": "[8.0.11, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -104,14 +108,14 @@
         }
       }
     },
-    "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Application\\Discount.Application.csproj": {
+    "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Discount.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Application\\Discount.Application.csproj",
+        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Discount.Application.csproj",
         "projectName": "Discount.Application",
-        "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Application\\Discount.Application.csproj",
+        "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Discount.Application.csproj",
         "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Application\\obj\\",
+        "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -132,8 +136,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\Discount.Infra.csproj": {
-                "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\Discount.Infra.csproj"
+              "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj": {
+                "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj"
               }
             }
           }
@@ -165,6 +169,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -187,12 +195,12 @@
         }
       }
     },
-    "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj": {
+    "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj",
         "projectName": "Discount.Domain",
-        "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj",
+        "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj",
         "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -258,14 +266,14 @@
         }
       }
     },
-    "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\Discount.Infra.csproj": {
+    "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\Discount.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj",
         "projectName": "Discount.Infra",
-        "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\Discount.Infra.csproj",
+        "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj",
         "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\obj\\",
+        "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -286,8 +294,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj": {
-                "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj"
+              "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj": {
+                "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj"
               }
             }
           }
@@ -339,14 +347,14 @@
         }
       }
     },
-    "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\Discount.IOC.csproj": {
+    "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\Discount.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\Discount.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\Discount.IOC.csproj",
         "projectName": "Discount.IOC",
-        "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\Discount.IOC.csproj",
+        "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\Discount.IOC.csproj",
         "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.IOC\\obj\\",
+        "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -367,8 +375,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Application\\Discount.Application.csproj": {
-                "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Application\\Discount.Application.csproj"
+              "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Discount.Application.csproj": {
+                "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Application\\Discount.Application.csproj"
               }
             }
           }
@@ -400,6 +408,10 @@
             "Hangfire.SqlServer": {
               "target": "Package",
               "version": "[1.8.16, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

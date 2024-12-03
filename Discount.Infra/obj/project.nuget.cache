@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rDmqfSlm37M=",
+  "dgSpecHash": "LOTusuoq9FM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Infra\\Discount.Infra.csproj",
+  "projectFilePath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Infra\\Discount.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.asghari\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\a.asghari\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

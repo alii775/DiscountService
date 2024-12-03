@@ -12,12 +12,13 @@ namespace Discount.Application.Commands
 {
 
 
-    public class CreateDiscountCommand : IRequest
+    public record CreateDiscountCommand : IRequest
     {
         [Range(1, 2)]
         public DiscountType DiscountType { get; set; }
-        public decimal Amount { get; set; }
         [PercentageRange]
+        public decimal DiscountValue { get; set; }
+     
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
     }

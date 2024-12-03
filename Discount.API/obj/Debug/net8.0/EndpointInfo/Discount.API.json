@@ -86,7 +86,7 @@
         ],
         "parameters": [
           {
-            "name": "couponId",
+            "name": "CouponId",
             "in": "query",
             "schema": {
               "type": "integer",
@@ -172,7 +172,7 @@
           "discountType": {
             "$ref": "#/components/schemas/DiscountType"
           },
-          "amount": {
+          "discountValue": {
             "type": "number",
             "format": "double"
           },

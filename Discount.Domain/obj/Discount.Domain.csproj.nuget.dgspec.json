@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj": {}
+    "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj": {
+    "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj",
         "projectName": "Discount.Domain",
-        "projectPath": "C:\\Users\\a.asghari\\Desktop\\discountservice\\Discount.Domain\\Discount.Domain.csproj",
+        "projectPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\Discount.Domain.csproj",
         "packagesPath": "C:\\Users\\a.asghari\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\a.asghari\\Desktop\\DiscountService\\Discount.Domain\\obj\\",
         "projectStyle": "PackageReference",

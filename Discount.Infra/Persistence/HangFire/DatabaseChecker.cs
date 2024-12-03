@@ -15,20 +15,18 @@ namespace Discount.Infra.Persistence.HangFire
         {
             _context = context;
         }
-        public void CheckAndUpdateDiscounts() 
+        public void CheckAndUpdateDiscounts()
         {
+            var currentDate = DateTime.Now;
 
-            var items = _context.Discounts.Where(x => x.StartDate <=DateTime.Now&&x.EndDate>=DateTime.Now).ToList();
-
-            foreach (var item in items)
+          
+            foreach (var discount in _context.Discounts)
             {
-                item.IsActive = true;
+                discount.IsActive = discount.StartDate <= currentDate && discount.EndDate >= currentDate;
             }
 
-
+          
             _context.SaveChanges();
-
-
         }
     }
 }
